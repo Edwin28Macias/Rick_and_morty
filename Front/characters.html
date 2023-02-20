@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & morty</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+	<script src="https://kit.fontawesome.com/9fc8c89e17.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="navElement"><a href="index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>               
+                <li class="navElement"><a href="characters.html"><i class="fa-solid fa-user"></i><span>Characters</span></a></li>
+                <li class="navElement"><a href="seasons.html"><i class="fa-solid fa-tv"></i><span>Seasons</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="containerCh">
+        <h1 id="title">Characters</h1>
+        <div class="container_characters">
+            <img class="btnPrev control" src="img/right.png" alt="">
+            <div class="charactersList">
+            </div>
+            <img class="btnNext control" src="img/right.png" alt="">
+
+        </div>
+    </div>
+
+    <div class="container_description">
+        <div class="container_elements">
+            <div class="container_image"><img id="image_description" src="img/rick-and-morty.png" alt=""></div>
+            <div class="container_info">
+                <h2 id="flyer">Please, <br> select a character!</h2>
+                <div id="containerHide">
+                    <div class="data"><b>Name: </b> <b class="info name"></b></div>
+                    <div class="data"><b>Gender: </b><b class="info gender"></b></div>
+                    <div class="data"><b>Specie: </b><b class="info specie"></b></div>
+                    <div class="data"><b>Origin: </b><b class="info origin"></b></div>
+                    <div class="data"><b>Location: </b><b class="info location"></b></div>
+                    <div class="data"><b>Status: </b><b class="info getStatus"></b></div>        
+                </div>       
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer_container">
+        <hr>
+        <div class="footer_networks">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <hr>
+        </div>
+        
+        <div class="footerInfo">
+            <img src="https://www.freepnglogos.com/uploads/rick-and-morty-png/list-rick-and-morty-episodes-wikipedia-24.png" width="200" alt="title-rick-and-morty"/>
+
+            <p style="color :black;">Copyright@2023 Edwin Macias</p>
+            <div class="policies">
+                <a href="#">Legal Information</a>
+                <p style="color :black">|</p>
+                <a href="#">Privacity Policies</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="charactersJS.js"></script>
+</body>
+</html>
