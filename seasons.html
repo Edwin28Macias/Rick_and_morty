@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & morty</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+	<script src="https://kit.fontawesome.com/9fc8c89e17.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="navElement"><a href="index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>               
+                <li class="navElement"><a href="characters.html"><i class="fa-solid fa-user"></i><span>Characters</span></a></li>
+                <li class="navElement"><a href="seasons.html"><i class="fa-solid fa-tv"></i><span>Seasons</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="seasons">
+        <h1 style="font-size: 36px; font-weight: 600;">Seasons</h1>
+        <div class="season1 season">
+            <button class="season_manager" id="season1_manager">Season 1</button>
+            <ul class="season_list season_l1">
+            </ul>
+        </div>
+        <div class="season2 season">
+            <button class="season_manager" id="season2_manager">Season 2</button>
+            <ul class="season_list season_l2">
+            </ul>
+        </div>
+        <div class="season3 season">
+            <button class="season_manager" id="season3_manager">Season 3</button>
+            <ul class="season_list season_l3">
+            </ul>
+        </div>
+        <div class="season4 season">
+            <button class="season_manager" id="season3_manager">Season 4</button>
+            <ul class="season_list season_l4">
+            </ul>
+        </div>
+        <div class="season5 season">
+            <button class="season_manager" id="season3_manager">Season 5</button>
+            <ul class="season_list season_l5">
+            </ul>
+        </div>
+        <div class="season6 season">
+            <button class="season_manager" id="season3_manager">Season 6</button>
+            <ul class="season_list season_l6">
+                <li><h2>Coming Soon!</h2></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer_container">
+        <hr>
+        <div class="footer_networks">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <hr>
+        </div>
+        
+        <div class="footerInfo">
+            <img src="https://www.freepnglogos.com/uploads/rick-and-morty-png/list-rick-and-morty-episodes-wikipedia-24.png" width="200" alt="title-rick-and-morty"/>
+
+            <p style="color :black;">Copyright@2023 Edwin Macias</p>
+            <div class="policies">
+                <a href="#">Legal Information</a>
+                <p style="color :black">|</p>
+                <a href="#">Privacity Policies</a>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="seasons.js"></script>
+</html>
